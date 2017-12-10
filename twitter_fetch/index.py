@@ -12,10 +12,10 @@ from tweepy import Stream
 import elasticDao
 
 #authentications
-client_key = "Mf2dbZhhfvKrp1wQLcPI3O9T3"
-client_secret = "SPOROqMhSFqEPWvgy26kFWJcq4qqF0hHiJMSnOsKZvq5furWjQ"
-token = "1891363410-hjfn0N5tWtl9XdBMQ8pFSASWesUfosysWMLQTl1"
-token_secret = "wMBRZmabKP4LdSTQNeTaLCEonPc0H9RVlzCzlZzxeREx3"
+client_key = "YOUR_CLIENT_KEY"
+client_secret = "YOUR_CLIENT_SECRET"
+token = "YOUR_TOKEN"
+token_secret = "YOUR_TOKEN_SECRET"
 
 #filters        
 filtro = {'python','javascript','ux','html'}
