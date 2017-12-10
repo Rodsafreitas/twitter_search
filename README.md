@@ -18,6 +18,8 @@ You can download the project using git clone.
 
 On <a href="https://developer.twitter.com/">twitter developers</a> is possible to get the key to use twitter's API.
 
+use on prompt "docker-compose up" and will mount all scructure for you, creating both containers.
+
 To run the python's script , just do:
 
 python main.py
