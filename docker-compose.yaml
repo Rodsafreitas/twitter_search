@@ -1,0 +1,19 @@
+version: '3'
+services:  
+  elasticsearch:
+    container_name:
+      "elasticsearch"
+    image: elasticsearch
+    restart: unless-stopped
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+  python:
+    container_name:
+      "python"
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: python.dockerfile
+    links: 
+      - elasticsearch:elasticsearch
